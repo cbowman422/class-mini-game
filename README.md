@@ -1,4 +1,3 @@
-# class-mini-game
 
 # **JS Survivor**
 
