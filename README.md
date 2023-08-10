@@ -45,7 +45,7 @@ Create a Survivor simulation.
 - Create a variable named `found` that will randomly select a number for the current `resource` from the createdResource values. ( If createdResource has a value of 2 for ‘Water’ that can be gathered, the Survivor can only have `found` up to 2 when the method is run ).
 - Set the `day` property to add `1` for each time the method is run. This will be what defines a day of survival.
 - Set the `health` property to add `found - damage` for each time the method is run.
-- Create a console.log that displays the daily stats. ( “ Paul’s health is at 90% on day 2. There was 2 Fire locations and Paul found 0. ” ).
+- Create a console.log that displays the daily stats. ( “ Day 2. There were 2 Fire resources and Paul found 0. Paul’s health is at 90%. ” ).
 
 ## **Step 3**
 

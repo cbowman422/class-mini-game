@@ -20,7 +20,7 @@ class Survivor {
     this.health += found - damage
     this.day += 1;
 
-    console.log(`There was ${this.campResource[resource].createResource} ${this.campResource[resource].name} locations and ${this.name} found ${found}.. health now at ${this.health} %`)
+    console.log(`There was ${this.campResource[resource].createResource} ${this.campResource[resource].name} resources and ${this.name} found ${found}.. health now at ${this.health} %`)
 
   }
 }
@@ -31,7 +31,7 @@ let gameOver = true;
 
 while (gameOver) {
 
-  eric.camp(10);
+  eric.camp(1);
 
   if (eric.health <= 0){
     console.log(`lived for ${eric.day} days`);
