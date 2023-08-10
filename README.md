@@ -56,5 +56,9 @@ Create a Survivor simulation.
 - Create a loop that does the following:
     - Runs the camp method with a defined damage parameter.
     - If the Survivors health reaches 0:
-        - toggle gameOver variable
+        - toggle gameOver variable.
         - Create a console.log that displays how many days the survivor lived. ( “ Paul survived for 200 days. “ ).
+    - If the Survivors health reaches 200:
+        - toggle gameOver variable.
+        - Create a console.log that displays how many days the survivor lasted before they were rescued! ( “ Paul was rescued after 300 days! “ ).
+    
