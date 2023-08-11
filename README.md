@@ -40,7 +40,7 @@ Create a Survivor simulation.
 
 ### Create a Method
 
-- Create a Method named `camp` and set the parameter to `damage`. ( The amount of damage can be changed to make survival more difficult. Set between 1 - 100 ).
+- Create a Method named `camp` and set the parameter to `damage`. ( The amount of damage can be changed to make survival more difficult. Set between 1 - 10 ).
 - Create a variable named `resource` that will randomly select a  `campResource` property, using `.length`. The survivor can only look for 1 resource a day.
 - Create a variable named `found` that will randomly select a number for the current `resource` from the createdResource values. ( If createdResource has a value of 2 for ‘Water’ that can be gathered, the Survivor can only have `found` up to 2 when the method is run ).
 - Set the `day` property to add `1` for each time the method is run. This will be what defines a day of survival.

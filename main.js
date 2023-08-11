@@ -31,7 +31,7 @@ let gameOver = true;
 
 while (gameOver) {
 
-  eric.camp(1);
+  eric.camp(20);
 
   if (eric.health <= 0){
     console.log(`lived for ${eric.day} days`);
@@ -45,3 +45,5 @@ while (gameOver) {
 
 
 }
+
+
